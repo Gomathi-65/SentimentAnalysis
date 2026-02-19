@@ -22,7 +22,11 @@ Platform & Version Insights: Understand user experience by platform (Web/Mobile)
 
 <h1>Dashboard Overview with KPI metrics</h1>
 
-<img width="1912" height="944" alt="image" src="https://github.com/user-attachments/assets/2a57a345-0137-4ea9-ae1f-5f00b67c434a" />
+
+
+<img width="1920" height="946" alt="image" src="https://github.com/user-attachments/assets/ce2c032a-3f46-4549-a4c6-40ec3b7f0e6b" />
+
+
 
 <h1>🛠 Technologies & Libraries</h1>
 
