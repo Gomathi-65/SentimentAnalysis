@@ -1,6 +1,6 @@
 📌 <h1> AI Echo: Your Smartest Conversational Partner </h1>
 
-AI Echo is a sentiment analysis dashboard designed to analyze user reviews of ChatGPT-style applications. It classifies reviews as Positive, Neutral, or Negative, helping businesses understand customer satisfaction, monitor brand reputation, and optimize features.
+<h4>AI Echo is a sentiment analysis dashboard designed to analyze user reviews of ChatGPT-style applications. It classifies reviews as Positive, Neutral, or Negative, helping businesses understand customer satisfaction, monitor brand reputation, and optimize features.</h4>>
 
 🔹 Features
 
