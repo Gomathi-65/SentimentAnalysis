@@ -1,8 +1,8 @@
-📌 <h1> AI Echo: Your Smartest Conversational Partner </h1>
+<h1>📌 AI Echo: Your Smartest Conversational Partner </h1>
 
-<h4>AI Echo is a sentiment analysis dashboard designed to analyze user reviews of ChatGPT-style applications. It classifies reviews as Positive, Neutral, or Negative, helping businesses understand customer satisfaction, monitor brand reputation, and optimize features.</h4>>
+<h4>AI Echo is a sentiment analysis dashboard designed to analyze user reviews of ChatGPT-style applications. It classifies reviews as Positive, Neutral, or Negative, helping businesses understand customer satisfaction, monitor brand reputation, and optimize features.</h4>
 
-🔹 Features
+<h1>🔹 Features</h1>
 
 Sentiment Classification: Classifies reviews into Positive, Neutral, or Negative using NLP and Machine Learning.
 
@@ -18,13 +18,13 @@ Verified User Analysis: Compare sentiments between verified and non-verified use
 
 Platform & Version Insights: Understand user experience by platform (Web/Mobile) and ChatGPT version.
 
-📊 Demo Screenshots
+<h1>📊 Demo Screenshots</h1>
 
-Dashboard Overview with KPI metrics
+<h1>Dashboard Overview with KPI metrics</h1>
 
 <img width="1912" height="944" alt="image" src="https://github.com/user-attachments/assets/2a57a345-0137-4ea9-ae1f-5f00b67c434a" />
 
-🛠 Technologies & Libraries
+<h1>🛠 Technologies & Libraries</h1>
 
 Programming Language: Python
 
@@ -34,7 +34,7 @@ Machine Learning Models: LinearSVC, TF-IDF, or any other text classification mod
 
 Deployment: Streamlit (optionally on AWS, Heroku, or Streamlit Cloud)
 
-⚡ How It Works
+<h1>⚡ How It Works</h1>
 
 Input a review in the text area.
 
@@ -44,7 +44,7 @@ ML fallback: If no keyword match, the trained ML model predicts sentiment.
 
 EDA Tabs: Explore trends, ratings, word clouds, and platform/version insights.
 
-📈 EDA Insights
+<h1>📈 EDA Insights</h1>
 
 Overall Sentiment Distribution: Pie chart of Positive, Neutral, Negative reviews.
 
@@ -58,7 +58,7 @@ Review Length: Average review length per sentiment.
 
 Platform & Version Analysis: Average rating by platform and major ChatGPT version.
 
-📝 Project Deliverables
+<h1>📝 Project Deliverables</h1>
 
 Cleaned & preprocessed dataset
 
@@ -70,7 +70,7 @@ Visualizations & WordCloud
 
 Actionable insights report
 
-📚 Skills Learned
+<h1>📚 Skills Learned</h1>
 
 Data Preprocessing & NLP Techniques
 
@@ -82,7 +82,7 @@ Model Evaluation Metrics (Accuracy, Precision, Recall, F1-score)
 
 Streamlit Deployment & Visualization
 
-📌 Future Improvements
+<h1>📌 Future Improvements</h1>
 
 Add Neutral detection more robustly using multi-class models
 
@@ -92,7 +92,7 @@ Deploy dashboard online with AWS / Streamlit Cloud
 
 Include Topic Modeling for negative feedback themes
 
-👨‍💻 Author
+<h1>👨‍💻 Author</h1>
 
 Created By: Gomathi Murugan
 
