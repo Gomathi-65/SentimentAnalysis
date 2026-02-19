@@ -24,7 +24,8 @@ Platform & Version Insights: Understand user experience by platform (Web/Mobile)
 
 
 
-<img width="1920" height="946" alt="image" src="https://github.com/user-attachments/assets/ce2c032a-3f46-4549-a4c6-40ec3b7f0e6b" />
+<img width="1899" height="895" alt="image" src="https://github.com/user-attachments/assets/55e622f3-387e-4ea0-997d-541c58ad7ac9" />
+
 
 
 
