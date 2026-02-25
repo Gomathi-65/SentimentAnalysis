@@ -18,17 +18,6 @@ Verified User Analysis: Compare sentiments between verified and non-verified use
 
 Platform & Version Insights: Understand user experience by platform (Web/Mobile) and ChatGPT version.
 
-<h1>📊 Demo Screenshots</h1>
-
-<h1>Dashboard Overview with KPI metrics</h1>
-
-
-
-<img width="1899" height="895" alt="image" src="https://github.com/user-attachments/assets/55e622f3-387e-4ea0-997d-541c58ad7ac9" />
-
-
-
-
 <h1>🛠 Technologies & Libraries</h1>
 
 Programming Language: Python
