@@ -1,6 +1,6 @@
-DS_AI-Echo-Your-Smartest-Conversational-Partner
-🤖 DS_AI-Echo — Your Smartest Conversational Partner
-📊 Sentiment Analysis & Insights Dashboard (Streamlit + ML + NLP)
+<h1>DS_AI-Echo-Your-Smartest-Conversational-Partner</h1>
+<h1>🤖 DS_AI-Echo — Your Smartest Conversational Partner</h1>
+<h2>📊 Sentiment Analysis & Insights Dashboard (Streamlit + ML + NLP)</h2>
 AI Echo is an interactive Sentiment Analysis Dashboard built using Streamlit, Machine Learning, and NLP techniques.
 It analyzes user reviews, predicts sentiment (Positive, Neutral, Negative), and provides powerful EDA visualizations to understand user feedback deeply.
 
