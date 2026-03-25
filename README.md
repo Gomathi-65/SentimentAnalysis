@@ -6,9 +6,9 @@ It analyzes user reviews, predicts sentiment (Positive, Neutral, Negative), and 
 
 <h1>🚀 Features</h1>
 <h3>🔍 1. Sentiment Classification</h3>
-Uses ML model (Logistic Regression + TF-IDF)
-Uses VADER/TextBlob hybrid for word-level + sentence-level sentiment
-Supports:
+Uses ML model (Logistic Regression + TF-IDF)<br>
+Uses VADER/TextBlob hybrid for word-level + sentence-level sentiment<br>
+Supports:<br>
 <B>Positive</B>
 <B>Neutral</B>
 <B>Negative</B>
