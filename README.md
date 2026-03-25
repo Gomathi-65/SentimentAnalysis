@@ -3,7 +3,8 @@
 <h2>📊 Sentiment Analysis & Insights Dashboard (Streamlit + ML + NLP)</h2>
 AI Echo is an interactive <b>Sentiment Analysis Dashboard</b> built using <b>Streamlit, Machine Learning,</b> and <b>NLP techniques.</b>
 It analyzes user reviews, predicts sentiment (Positive, Neutral, Negative), and provides powerful EDA visualizations to understand user feedback deeply.
-<br>
+
+#----------------------------------------------------------------------------------------
 
 🚀 Features
 🔍 1. Sentiment Classification
