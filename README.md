@@ -1,91 +1,83 @@
-# DS_AI-Echo-Your-Smartest-Conversational-Partner
-# 🤖 DS_AI-Echo — Your Smartest Conversational Partner  
-### 📊 Sentiment Analysis & Insights Dashboard (Streamlit + ML + NLP)
+🧠 AI Echo – Sentiment Analysis of ChatGPT Reviews
 
-AI Echo is an interactive **Sentiment Analysis Dashboard** built using **Streamlit**, **Machine Learning**, and **NLP techniques**.  
-It analyzes user reviews, predicts sentiment (Positive, Neutral, Negative), and provides powerful EDA visualizations to understand user feedback deeply.
+AI Echo is a machine learning based Sentiment Analysis Web Application that analyzes user reviews of a ChatGPT-style application and classifies them into Positive, Neutral, or Negative sentiments. The project also provides rich visual insights using EDA dashboards.
 
----
+🚀 Features
 
-# 🚀 Features
+Classifies user reviews into Positive / Neutral / Negative
 
-### 🔍 **1. Sentiment Classification**
-- Uses ML model (Logistic Regression + TF-IDF)
-- Uses VADER/TextBlob hybrid for word-level + sentence-level sentiment
-- Supports:
-  - **Positive**
-  - **Neutral**
-  - **Negative**
+Text preprocessing using spaCy NLP pipeline
 
-### 🎨 **2. Modern UI & Dashboard**
-- Futuristic AI-themed background  
-- Black glass review input box  
-- Responsive, clean design  
+TF-IDF based feature extraction
 
-### 📈 **3. Interactive Visualizations**
-Includes multiple insights:
+ML model prediction (Logistic Regression / XGBoost)
 
-#### **Sentiment Insights**
-- Overall sentiment distribution  
-- Sentiment by rating  
-- Sentiment by platform (Web / Mobile)  
-- Sentiment by ChatGPT version  
-- Sentiment by user location  
-- Sentiment over time (monthly trends)  
-- Verified vs non-verified sentiment  
+Interactive Streamlit dashboard
 
-#### **Text Insights**
-- Word clouds for each sentiment
-- Common negative feedback themes
-- Review length distribution by sentiment
+Visual Insights:
 
----
+Overall sentiment distribution
 
-# 🧠 **Machine Learning Pipeline**
+Sentiment by rating
 
-### ✔ Preprocessing:
-- Lowercasing  
-- Special character removal  
-- Stopword removal (negators kept)
-- Lemmatization using WordNet  
-- POS-aware normalization  
-- Missing value handling  
-- Platform grouping (Web, Mobile, Other)
+Positive & Negative WordClouds
 
-### ✔ Sentiment Labeling:
-- Based on Rating  
-  - `>= 4 → Positive`
-  - `3 → Neutral`
-  - `<= 2 → Negative`
+Sentiment trends over time
 
-- Additional VADER-based compound scoring  
-- Word-level hybrid sentiment rules  
-- Final ensemble sentiment classification  
+Platform & Location based sentiment
 
-### ✔ Model Training:
-- Balanced dataset (upsampling)
-- TF-IDF Vectorizer (1–2 grams, 20k features)
-- Logistic Regression classifier
-- Stratified train-test split (80/20)
-- Saved models using joblib:
-  - `sentiment_analyzer.joblib`
-  - `vectorizer_balanced.joblib`
-  - `text_classifier_balanced.joblib`
+Verified vs Non-verified user analysis
 
----
+Common negative feedback themes
 
-# 📁 **Dataset Requirements**
+📂 Project Structure AI-Echo-Sentiment-Analysis/ │ ├── chat_gpt.py # Streamlit application ├── AI.ipynb # Model training notebook ├── clean.csv # Cleaned dataset ├── tfidf_vectorizer.pkl # Saved TF-IDF Vectorizer ├── sentiment_model.pkl # Trained ML model ├── README.md # Project documentation └── requirements.txt # Project dependencies
 
-Your dataset should contain at least:
+⚙ Installation & Setup 1️⃣ Create Virtual Environment python -m venv venv venv\Scripts\activate
 
-| Column | Description |
-|--------|-------------|
-| `review` | User review text |
-| `rating` | Rating 1–5 |
-| `date` | Review date |
-| `verified_purchase` | Yes/No |
-| `location` | User's location |
-| `platform` | App Store, Play Store, Web, etc. |
-| `version` | ChatGPT version |
-| `cleaned_reviews` | Preprocessed cleaned text |
-| `sentiment` | Final sentiment label |
+2️⃣ Install Dependencies pip install pandas numpy scikit-learn nltk spacy wordcloud matplotlib seaborn xgboost streamlit openpyxl langdetect imbalanced-learn python -m spacy download en_core_web_sm
+
+▶ Run the Application streamlit run chat_gpt.py
+
+The app will open automatically in your browser.
+
+📊 Dataset Information
+
+The dataset contains:
+
+Column Description date Review submission date title Review headline review Full review text rating User rating (1–5) username Random username helpful_votes Number of helpful votes platform Web / Mobile language Language of review location Country version ChatGPT version verified_purchase Yes / No 📈 Evaluation Metrics
+
+Accuracy
+
+Precision
+
+Recall
+
+F1-Score
+
+Confusion Matrix
+
+🧠 Model Techniques Used
+
+NLP Preprocessing – Tokenization, Lemmatization, Stopword Removal
+
+Feature Extraction – TF-IDF
+
+Models – Logistic Regression, XGBoost
+
+Visualization – WordCloud, Seaborn, Matplotlib
+
+🎯 Business Use Cases
+
+Customer feedback analysis
+
+Brand reputation tracking
+
+Feature improvement recommendations
+
+Automated complaint detection
+
+Product satisfaction monitoring
+
+👩‍💻 Developed By
+
+Gomathi Murugan Capstone Project – AI Echo: Sentiment Analysis of ChatGPT Reviews
