@@ -1,83 +1,134 @@
-🧠 AI Echo – Sentiment Analysis of ChatGPT Reviews
+# 📊 AI Echo — Sentiment Analysis App
 
-AI Echo is a machine learning based Sentiment Analysis Web Application that analyzes user reviews of a ChatGPT-style application and classifies them into Positive, Neutral, or Negative sentiments. The project also provides rich visual insights using EDA dashboards.
+## 📌 Project Overview
+AI Echo is a hybrid sentiment analysis system that classifies user reviews into Positive, Negative, or Neutral using:
 
-🚀 Features
+- Machine Learning (TF-IDF + Logistic Regression)  
+- Rule-based NLP approach  
 
-Classifies user reviews into Positive / Neutral / Negative
+It also includes a Streamlit web app for real-time predictions and EDA visualization.
 
-Text preprocessing using spaCy NLP pipeline
+---
 
-TF-IDF based feature extraction
+## 🎯 Objectives
+- Analyze user reviews from multiple platforms  
+- Build an accurate sentiment classifier  
+- Improve accuracy using hybrid approach  
+- Provide real-time predictions  
 
-ML model prediction (Logistic Regression / XGBoost)
+---
 
-Interactive Streamlit dashboard
+## 📂 Dataset
+- Total records: 250  
+- Features:
+  - review, rating, platform, location  
+  - version, helpful_votes  
+  - verified_purchase  
 
-Visual Insights:
+---
 
-Overall sentiment distribution
+## ⚙️ Tech Stack
+- Python  
+- pandas, numpy  
+- nltk  
+- scikit-learn  
+- matplotlib, seaborn, plotly  
+- wordcloud  
+- streamlit  
 
-Sentiment by rating
+---
 
-Positive & Negative WordClouds
+## 🔄 Workflow
 
-Sentiment trends over time
+### 1. Data Preprocessing
+- Lowercasing  
+- Removing special characters  
+- Stopword removal (keeping negations)  
+- Lemmatization  
 
-Platform & Location based sentiment
+### 2. Feature Engineering
+- Created cleaned_reviews  
+- Converted ratings to sentiment:
+  - 4–5 → Positive  
+  - 3 → Neutral  
+  - 1–2 → Negative  
 
-Verified vs Non-verified user analysis
+### 3. Data Balancing
+- Used upsampling to balance dataset  
 
-Common negative feedback themes
+### 4. Model Building
+- TF-IDF Vectorizer  
+- Logistic Regression  
 
-📂 Project Structure AI-Echo-Sentiment-Analysis/ │ ├── chat_gpt.py # Streamlit application ├── AI.ipynb # Model training notebook ├── clean.csv # Cleaned dataset ├── tfidf_vectorizer.pkl # Saved TF-IDF Vectorizer ├── sentiment_model.pkl # Trained ML model ├── README.md # Project documentation └── requirements.txt # Project dependencies
+### 5. Model Performance
+- Before tuning: 76%  
+- After tuning: 81%  
 
-⚙ Installation & Setup 1️⃣ Create Virtual Environment python -m venv venv venv\Scripts\activate
+### 6. Hybrid Model
+- Rule-based prediction first  
+- ML model as fallback  
 
-2️⃣ Install Dependencies pip install pandas numpy scikit-learn nltk spacy wordcloud matplotlib seaborn xgboost streamlit openpyxl langdetect imbalanced-learn python -m spacy download en_core_web_sm
+---
 
-▶ Run the Application streamlit run chat_gpt.py
+## 💻 Streamlit Features
 
-The app will open automatically in your browser.
+### 🔮 Prediction Page
+- Input review  
+- Output sentiment with emoji  
 
-📊 Dataset Information
+### 📊 EDA Page
+- Sentiment distribution  
+- Rating vs sentiment  
+- WordCloud  
+- Location analysis  
+- Version analysis  
 
-The dataset contains:
+---
 
-Column Description date Review submission date title Review headline review Full review text rating User rating (1–5) username Random username helpful_votes Number of helpful votes platform Web / Mobile language Language of review location Country version ChatGPT version verified_purchase Yes / No 📈 Evaluation Metrics
+## 📁 Project Structure
+AI-Echo/
+│
+├── processed_cleaned_reviews.csv  
+├── tuned_logistic_model.pkl  
+├── vectorizer_balanced.joblib  
+│
+├── app.py  
+├── notebook.ipynb  
+│
+└── README.md  
 
-Accuracy
+---
 
-Precision
+## 🚀 How to Run
 
-Recall
+git clone <your-repo-link>  
+cd AI-Echo  
 
-F1-Score
+pip install -r requirements.txt  
 
-Confusion Matrix
+streamlit run app.py  
 
-🧠 Model Techniques Used
+---
 
-NLP Preprocessing – Tokenization, Lemmatization, Stopword Removal
+## ⚠️ Challenges
+- Invalid date values  
+- Imbalanced dataset  
+- Short text prediction issues  
+- Solver error in Logistic Regression  
 
-Feature Extraction – TF-IDF
+---
 
-Models – Logistic Regression, XGBoost
+## 🔮 Future Improvements
+- Use deep learning models  
+- Add multilingual support  
+- Deploy on cloud  
 
-Visualization – WordCloud, Seaborn, Matplotlib
+---
 
-🎯 Business Use Cases
+## 👩‍💻 Author
+Gomathi Murugan  
 
-Customer feedback analysis
+---
 
-Brand reputation tracking
-
-Feature improvement recommendations
-
-Automated complaint detection
-
-Product satisfaction monitoring
-
-👩‍💻 Developed By
-
-Gomathi Murugan Capstone Project – AI Echo: Sentiment Analysis of ChatGPT Reviews
+## ⭐ Conclusion
+This project combines rule-based NLP and machine learning to provide accurate sentiment predictions.
